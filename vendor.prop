@@ -1,2 +1,5 @@
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
 # Zygote
 zygote.critical_window.minute=10
