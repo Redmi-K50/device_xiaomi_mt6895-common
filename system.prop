@@ -47,3 +47,16 @@ wifi.tethering.interface=ap0
 # RIL
 vendor.rild.libargs=-d /dev/ttyC0
 vendor.rild.libpath=mtk-ril.so
+
+# Surface Flinger
+debug.sf.use_phase_offsets_as_durations=1
+debug.sf.late.sf.duration=27600000
+debug.sf.late.app.duration=20000000
+debug.sf.early.sf.duration=27600000
+debug.sf.early.app.duration=20000000
+debug.sf.earlyGl.sf.duration=27600000
+debug.sf.earlyGl.app.duration=20000000
+debug.sf.hwc.min.duration=17000000
+debug.sf.latch_unsignaled=true
+debug.sf.predict_hwc_composition_strategy=0
+debug.sf.enable_transaction_tracing=false
