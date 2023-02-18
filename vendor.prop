@@ -6,3 +6,4 @@ zygote.critical_window.minute=10
 
 # Display
 debug.sf.disable_client_composition_cache=1
+ro.config.avoid_gfx_accel=true
