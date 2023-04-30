@@ -240,7 +240,9 @@ PRODUCT_PACKAGES += \
     SystemUIOverlay \
     TetheringConfigOverlay \
     WifiOverlay \
-    DialerOverlay
+    DialerOverlay \
+    ApertureOverlay \
+    ApertureQRScannerOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
