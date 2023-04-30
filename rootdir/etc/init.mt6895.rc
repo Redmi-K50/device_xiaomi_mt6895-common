@@ -102,6 +102,7 @@ on charger
     chown system system /sys/class/leds/green/brightness
 
     start vendor.light-default
+    start mi_thermald
 
     # Stop bootprof
     write /proc/bootprof "0"
